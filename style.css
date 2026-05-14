@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.strength-bar {
+    width: 250px;
+    height: 10px;
+    background: #444;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#strength-fill {
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+}
+
+#strength-text {
+    margin-top: 10px;
+    font-weight: bold;
+}
